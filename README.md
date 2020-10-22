@@ -11,7 +11,11 @@ This project uses the [Airport API](https://www.developer.aero/api-catalog/airpo
 
 ## Screenshots
 
+![Weatheroo](https://res.cloudinary.com/shernaliu/image/upload/v1603384326/github-never-delete/weatheroo.png)
 
+## Video demo
+
+[![Watch the video](https://img.youtube.com/vi/8CvmbPi12n8/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
 ## Installing Weatheroo
 
