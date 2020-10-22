@@ -15,7 +15,7 @@ This project uses the [Airport API](https://www.developer.aero/api-catalog/airpo
 
 ## Video demo
 
-[![Watch the video](https://img.youtube.com/vi/8CvmbPi12n8/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+[![Watch the video](https://img.youtube.com/vi/8CvmbPi12n8/maxresdefault.jpg)](https://youtu.be/8CvmbPi12n8)
 
 ## Installing Weatheroo
 
