@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shern.weatheroo.WeatherActivity">
+
+    <TextView
+        android:id="@+id/tv_airportCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Airport Code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_airportCode"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp"
+        android:text="Temperature"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_temperature"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="22dp"
+        android:text="Description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_heatIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_description"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="22dp"
+        android:text="Heat Index"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_windDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_heatIndex"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="19dp"
+        android:text="Wind Direction"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_windSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_windDirection"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="22dp"
+        android:text="Wind Speed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_windChill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_windSpeed"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:text="Wind Chill"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_windChill"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="23dp"
+        android:text="Visibility"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_feelsLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_visibility"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="23dp"
+        android:text="Feels like"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_timeStamp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_feelsLike"
+        android:layout_alignEnd="@+id/tv_windChill"
+        android:layout_alignRight="@+id/tv_windChill"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="-39dp"
+        android:layout_marginRight="-39dp"
+        android:text="Time Stamp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_airportCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_temperature"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_description"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_heatIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_windDirection"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_windDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_windDirection"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_windSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_windSpeed"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_windChill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_windChill"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_feelsLike"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_feelsLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_timeStamp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_input_timeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_timeStamp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+</RelativeLayout>
