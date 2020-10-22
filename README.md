@@ -24,5 +24,3 @@ This project uses the [Airport API](https://www.developer.aero/api-catalog/airpo
 git clone https://github.com/shernaliu/weatheroo.git
 ```
 Run the project in Android Studio.
-
-Alternatively, you can choose to install the apk found in the `app\build\outputs\apk` directory of this repository.
