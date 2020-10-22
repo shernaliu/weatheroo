@@ -1,6 +1,6 @@
 # Weatheroo
 
-This project is a Android mobile/tablet application developed by shernaliu for the SIA AppChallenge in 2016.
+This project is a Android mobile/tablet application developed by myself, Kai Ling, Rachel for the SIA AppChallenge in 2016.
 
 Functionalities:
 
